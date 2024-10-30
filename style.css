@@ -1,0 +1,56 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+/*Fonts*/
+.cf_plugin{display: inline-block;width: 100%;box-sizing: border-box;}
+.cf_plugin .cf_logo{margin: 30px 0 30px 0;width: 35%;padding-left: 45px;box-sizing:border-box;display: inline-block;vertical-align: middle;}
+.cf_plugin .cf_logo img{max-width: 100%;}
+.cf_plugin .cf_social{width: 62%;display: inline-block;vertical-align: middle;}
+.cf_plugin .cf_social ul{list-style: none;margin: 0;}
+.cf_plugin .cf_social ul li{float: left;margin: 0 50px 0 0;}
+.cf_plugin .cf_social ul li a{text-decoration: none;font-size: 14px;color: #333;font-family: 'Lato', sans-serif;}
+.cf_plugin .cf_social ul li a i{margin-right: 5px;}
+.cf_plugin .cf_social ul li.cf_website a i{color: #00b964;}
+.cf_plugin .cf_social ul li.cf_email a i{color: #fd9a00;}
+.cf_plugin .cf_social ul li.cf_skype a i{color: #0880bd;}
+.cf_steps{background-color: #f6f6f6;padding: 20px 0;display: inline-block;width: 100%;text-align: center;margin-bottom: 40px;}
+.cf_steps ul{margin: 0;list-style: none;display: inline-block;padding: 0;}
+.cf_steps ul li{display: inline-block;margin: 0 75px 0 75px;position: relative;}
+.cf_steps ul li .cf_dots{position: absolute;height: 12px;width: 12px;background-color: #c7c7c7;border-radius: 50%;right: -40px;top: 50%;margin-top: -6px;}
+.cf_steps ul li .cf_dots:after{content: '';position: absolute;height: 12px;width: 12px;background-color: #c7c7c7;border-radius: 50%;right: -40px;}
+.cf_steps ul li .cf_dots:before{content: '';position: absolute;height: 12px;width: 12px;background-color: #c7c7c7;border-radius: 50%;right: -82px;}
+.cf_steps ul li .cf_circle{height: 60px;width: 60px;border-radius: 50%;margin-bottom: 12px;background-color: #3598db;}
+.cf_steps ul li.cf_done .cf_circle{background-color: #56c818;}
+.cf_steps ul li .cf_circle i{line-height: 60px;display: block;text-align: center;color: #fff;font-size: 24px;font-style: normal;font-family: 'Lato', sans-serif;}
+.cf_steps ul li .cf_circle i.check_icn{display: none;}
+.cf_steps ul li.cf_done i.check_icn{display: block;height: 60px;width: 60px;background: url(images/check_icn.png) no-repeat center center;}
+.cf_steps ul li.cf_done i{display: none;}
+.cf_steps ul li span{font-size: 14px;color: #333;font-family: 'Lato', sans-serif;display: block;text-align: center;}
+.cf_tabs{max-width: 1070px;margin: 0 auto;font-family: 'Lato', sans-serif;padding: 0 15px;}
+.cf_tabs .cf_img_block{float: left;width: 56%;}
+.cf_tabs .cf-50-content{float: left;width: 44%;}
+.cf_tabs h2{padding:0;margin:0 0 15px 0;font-size: 30px;}
+.cf_tabs h2 small{display: block;margin-bottom: 15px;font-size: 22px;}
+.cf_tabs p{font-size: 18px;line-height: 24px;color: #333;margin: 0 0 30px 0;padding: 0;}
+.cf_tabs .cf_row{margin-bottom: 20px;display: inline-block;width: 100%;}
+.cf_plugin .pull-left{float: left !important;}
+.cf_plugin .pull-right{float: right !important;}
+.cf_plugin .next_btn{background-color: #3498db;line-height: 40px;color: #fff;font-size: 22px;display: block;min-width: 192px; border: 0;border-.radius: 2px;font-family: 'Lato', sans-serif;margin: 20px auto;cursor: pointer;}
+.cf_plugin .img-responsive{max-width: 100%;height: auto;}
+.cf_tabs .cf_tab{display: none;}
+.cf_tabs .cf_tab.active{display: block;}
+.cf_tabs .w-40{width: 40%;float: left;}
+.cf_tabs .w-45{width: 45%;float: left;}
+.cf_tabs .w-60{width: 60%;float: left;}
+.cf_tabs .w-50{width: 50%;float: left;}
+.cf_tabs h4{margin: 0 0 20px 0;font-size: 20px;font-family: 'Lato', sans-serif;}
+.mrg-btm-10{margin-bottom: 10px;}
+@media screen and ( max-width: 768px ) {
+.cf_steps ul li{margin: 0 15px 0 15px;}
+.cf_steps ul li .cf_dots{display: none;}
+.cf_plugin .cf_social {width: 100%;text-align: center;margin-bottom: 20px;}
+.cf_plugin .cf_logo{width: 100%;text-align: center;padding:0 15px;}
+.cf_plugin .cf_social ul li{display: inline-block;float: none;}
+.cf_plugin .cf_social ul{text-align: center;width: 100%;display: inline-block;padding: 0;}
+.cf_plugin .cf_social ul li{margin: 0 10px 10px 10px;}
+.cf_tabs .w-40,.cf_tabs .w-45,.cf_tabs .w-60,.cf_tabs .w-50,.cf_tabs .cf-50-content{width: 100%;margin-bottom: 10px;}
+}
